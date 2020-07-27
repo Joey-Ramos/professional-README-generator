@@ -9,7 +9,7 @@ add screenshot to directory if desired
 
 ## Description
 
-A command-line application that dynamically generates a professional README.md file from a user's input using the inquirer package.
+A command-line application that dynamically generates a professional README.md file from a user's input using the inquirer package. [View Demonstration Here](https://bootcampspot.instructuremedia.com/embed/4a191655-3df5-40c0-a347-47e80b29b82d)
 
 ## Table of Contents
   * [Installation](#installation)
