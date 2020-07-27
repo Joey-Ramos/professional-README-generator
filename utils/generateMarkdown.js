@@ -13,47 +13,47 @@ function generateMarkdown(data) {
       } = data;
 
     return `
-  # ${title}
+# ${title}
 
-  ![${license} license badge](https://img.shields.io/badge/license-${license.replace(/ /g, '%20')}-green)
-  <!--
-  add screenshot to directory if desired
-  ![Project Name](./assets/images/screenshot.png)
-  -->
+![${license} license badge](https://img.shields.io/badge/license-${license.replace(/ /g, '%20')}-green)
+<!--
+add screenshot to directory if desired
+![Project Name](./assets/images/screenshot.png)
+-->
 
-  ## Description
+## Description
 
-  ${description}
+${description}
 
-  ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contribution](#contribution)
-    * [Testing](#testing)
-    * [Questions](#questions)
+## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contribution](#contribution)
+  * [Testing](#testing)
+  * [Questions](#questions)
+  
+## Installation
+${installation}
 
-  ## Installation
-  ${installation}
+## Usage
+${usage}
 
-  ## Usage
-  ${usage}
+## License
+This project is covered under the ${license} license
 
-  ## License
-  This project is covered under the ${license} license
+## Contribution
+${contribution}
 
-  ## Contribution
-  ${contribution}
+## Testing
+${tests}
 
-  ## Testing
-  ${tests}
+## Questions
+Link to my GitHub
+[${github}](https://github.com/${github})
 
-  ## Questions
-  Link to my GitHub
-  [${github}](https://github.com/${github})
-
-  If you have any questions or would like to contact me, please email me at
-  [${email}](mailto:${email})
+If you have any questions or would like to contact me, please email me at
+[${email}](mailto:${email})
 `;
 }
 
